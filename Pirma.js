@@ -1,6 +1,9 @@
 
 let menesioSkaicius = +prompt("Noredami suzinoti menesio pavadinima iveskite skaiciu:")
 alert(menesioPavadinimas(menesioSkaicius))
+
+
+
 function menesioPavadinimas(menesioSkaicius) {
     let menesioPavadinimas;
     switch (menesioSkaicius) {
@@ -14,7 +17,7 @@ function menesioPavadinimas(menesioSkaicius) {
             menesioPavadinimas = "Menesio pavadinimas yra: Kovas";
             break;
         case 4:
-            dmenesioPavadinimas = "Menesio pavadinimas yra: Balandis";
+            menesioPavadinimas = "Menesio pavadinimas yra: Balandis";
             break;
         case 5:
             menesioPavadinimas = "Menesio pavadinimas yra: Geguze";

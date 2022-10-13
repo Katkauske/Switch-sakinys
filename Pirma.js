@@ -42,6 +42,7 @@ function menesioPavadinimas(menesioSkaicius) {
             menesioPavadinimas = "Menesio pavadinimas yra: Gruodis";
             break;
         default:
+            menesioPavadinimas = "KLAIDA!!!"
             
     }
     return menesioPavadinimas;

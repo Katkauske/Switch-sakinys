@@ -5,7 +5,7 @@ alert(menesioPavadinimas(menesioSkaicius))
 
 
 function menesioPavadinimas(menesioSkaicius) {
-    let menesioPavadinimas;
+    
     switch (menesioSkaicius) {
         case 1:
             menesioPavadinimas = "Menesio pavadinimas yra: Sausis";

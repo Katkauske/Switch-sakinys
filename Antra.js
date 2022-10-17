@@ -7,7 +7,7 @@ let menesioSkaicius = +prompt("Iveskite menesio skaiciu: ")
 alert( menesioPavadinimas(menesioSkaicius) + menesioDienuSkaicius(menesioSkaicius))
 
 function menesioPavadinimas(menesioSkaicius) {
-let = menesioSkaicius;
+
 switch (menesioSkaicius) {
     case 1:
         menesioPavadinimas = "Menesio pavadinimas yra: Sausis.";

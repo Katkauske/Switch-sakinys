@@ -55,43 +55,24 @@ return menesioPavadinimas;
 function menesioDienuSkaicius(menesioPavadinimas){
 switch(menesioPavadinimas){
     case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
         menesioDienuSkaicius = " Sis menuo turi 31 diena."
         break;
     case 2:
         menesioDienuSkaicius = " Sis menuo turi 29 dienas."
-        break;
-    case 3:
-        menesioDienuSkaicius = " Sis menuo turi 30 dienu."
         break;    
     case 4:
-        menesioDienuSkaicius = " Sis menuo turi 31 diena."
-        break;        
-    case 5:
-        menesioDienuSkaicius = " Sis menuo turi 31 diena."
-        break;
     case 6:
-        menesioDienuSkaicius = " Sis menuo turi 30 dienu."
-        break;
-    case 7:
-        menesioDienuSkaicius = " Sis menuo turi 31 diena."
-        break;
-    case 8:
-        menesioDienuSkaicius = " Sis menuo turi 31 diena."
-        break;
-    case 9: 
-        menesioDienuSkaicius = " Sis menuo turi 30 dienu."
-        break;
-    case 10:
-        menesioDienuSkaicius = "Sis menuo turi 31 diena."
-        break;
+    case 9:
     case 11:
-        menesioDienuSkaicius = "Sis menuo turi 31 diena."
-        break;
-    case 12:
-        menesioDienuSkaicius = " Sis menuo turi 31 diena. Paskutinis metu menuo."
-        break;
-
-        default:
+        menesioDienuSkaicius = " Sis menuo turi 30 dienu."
+        break;        
+    default:
             menesioDienuSkaicius = "!!"  
     }
     return  menesioDienuSkaicius;
